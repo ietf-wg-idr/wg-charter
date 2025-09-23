@@ -13,7 +13,7 @@ The IDR WG will develop and maintain BGP features, extensions, and mechanisms th
 - Capability advertisement mechanisms \[RFC5492\] used during session establishment to signal support for optional protocol features.
 - Communities, including Extended Communities \[RFC4360\], Large and Wide Communities, for carrying metadata and policy-related information.
 - Route constraint mechanisms such as Route Target Constraints \[RFC4684\] for limiting route propagation.
-- Operation and optimization of Route Reflectors \[RFC4456\] for scalable iBGP deployments.
+- Operation and optimization of Route Reflectors \[RFC4456\] and Confederations \[RFC5065\] for scalable iBGP deployments.
 - Outbound Route Filtering (ORF) mechanisms \[RFC5291\] \[RFC5292\] for policy-based control of route advertisement.
 - Graceful Restart procedures \[RFC4724\] \[RFC9494\] for improving BGP session resiliency and convergence during restarts or failures.
 
