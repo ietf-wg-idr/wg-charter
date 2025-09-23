@@ -28,21 +28,21 @@ The WG is expected to coordinate closely with the IDR WG. Any extensions that im
 
 **List of WG documents** **(as of Sep 23, 2025):**
 
-**Note:** The documents in bold will have milestones attached to begin with and further milestones will be added as necessary.
+**Note:** The documents with (*) will have milestones attached to begin with and further milestones will be added as necessary.
 
 **Active:**
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-link-mtu/>
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-path-segment/**](https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-path-segment/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-path-segment/**](https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-path-segment/) (*)
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-policy-nrp/**](https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-policy-nrp/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-policy-nrp/**](https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-policy-nrp/) (*)
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-flowspec-interfaceset/>
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-flowspec-redirect-ip/**](https://datatracker.ietf.org/doc/draft-ietf-idr-flowspec-redirect-ip/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-flowspec-redirect-ip/**](https://datatracker.ietf.org/doc/draft-ietf-idr-flowspec-redirect-ip/) (*)
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-sr-vtn-mt/**](https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-sr-vtn-mt/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-sr-vtn-mt/**](https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-sr-vtn-mt/) (*)
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-srmpls-elp/>
 
@@ -70,7 +70,7 @@ The WG is expected to coordinate closely with the IDR WG. Any extensions that im
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-ifit/>
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-policy-path-segment/**](https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-policy-path-segment/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-policy-path-segment/**](https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-policy-path-segment/) (*)
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-path-mtu/>
 
@@ -78,9 +78,9 @@ The WG is expected to coordinate closely with the IDR WG. Any extensions that im
 
 **Expired:**
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-fsv2-ip-basic/**](https://datatracker.ietf.org/doc/draft-ietf-idr-fsv2-ip-basic/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-fsv2-ip-basic/**](https://datatracker.ietf.org/doc/draft-ietf-idr-fsv2-ip-basic/) (*)
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-nrp/**](https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-nrp/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-nrp/**](https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-nrp/) (*)
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-inter-as-topology-ext/>
 
@@ -109,3 +109,4 @@ The WG is expected to coordinate closely with the IDR WG. Any extensions that im
 <https://datatracker.ietf.org/doc/draft-ietf-idr-ls-trill/>
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-node-admin-tag-extension/>
+
