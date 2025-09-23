@@ -24,7 +24,7 @@ The primary focus of the WG will remain on the development of Standards Track BG
 
 As new features and functionalities are developed within the IETF, there may be requirements for BGP extensions to support them. The WG may take on such work, following consultation with the relevant WG Chairs and Responsible ADs, provided the work is limited to BGP protocol mechanisms. The WG will coordinate closely with the originating WG(s) responsible for the overall framework, architecture, and requirements. Progression of such work in BID WG will be aligned with the maturity of the corresponding work in those WGs. Relevant WGs include, but are not limited to, SPRING, TEAS, CATS, SAVNET, and, in the context of BGP-LS, LSR.
 
-The WG is expected to coordinate closely with the IDR WG. Any extensions that impact core BGP protocol behavior, including modifications to the BGP finite state machine, message formats, best-path selection procedures, or the definition of new path attributes, must be cross-posted to the IDR WG for review at least during WG adoption and last-call.
+The WG is expected to coordinate closely with the IDR WG. Any extensions that impact core BGP protocol behavior, including modifications to the BGP finite state machine, message formats, best-path selection procedures, or the definition of new path attributes, must be cross-posted to the IDR WG for review at least during WG adoption and last-call. The WG will also coordinate with the LSVR WG on re-use of BGP-LS extensions in the BGP-SPF work undertaken by the LSVR WG.
 
 **List of WG documents** **(as of Sep 23, 2025):**
 
@@ -109,4 +109,5 @@ The WG is expected to coordinate closely with the IDR WG. Any extensions that im
 <https://datatracker.ietf.org/doc/draft-ietf-idr-ls-trill/>
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-node-admin-tag-extension/>
+
 
