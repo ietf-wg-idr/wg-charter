@@ -38,15 +38,15 @@ The IDR WG is expected to review BGP-related work in other WGs that is specifica
 
 **List of WG documents** **(as of Sep 23, 2025):**
 
-**Note:** The documents in bold will have milestones attached to begin with and further milestones will be added as necessary.
+**Note:** The documents with (*) will have milestones attached to begin with and further milestones will be added as necessary.
 
 **Active:**
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-link-bandwidth/**](https://datatracker.ietf.org/doc/draft-ietf-idr-link-bandwidth/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-link-bandwidth/**](https://datatracker.ietf.org/doc/draft-ietf-idr-link-bandwidth/) (*)
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-5g-edge-service-metadata/>
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-rfc4360-bis/**](https://datatracker.ietf.org/doc/draft-ietf-idr-rfc4360-bis/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-rfc4360-bis/**](https://datatracker.ietf.org/doc/draft-ietf-idr-rfc4360-bis/)  (*)
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-rt-derived-community/>
 
@@ -56,9 +56,9 @@ The IDR WG is expected to review BGP-related work in other WGs that is specifica
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-fwd-rr/>
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-linklocal-capability/**](https://datatracker.ietf.org/doc/draft-ietf-idr-linklocal-capability/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-linklocal-capability/**](https://datatracker.ietf.org/doc/draft-ietf-idr-linklocal-capability/)  (*)
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-entropy-label/**](https://datatracker.ietf.org/doc/draft-ietf-idr-entropy-label/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-entropy-label/**](https://datatracker.ietf.org/doc/draft-ietf-idr-entropy-label/)  (*)
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-dynamic-cap/>
 
@@ -78,7 +78,7 @@ The IDR WG is expected to review BGP-related work in other WGs that is specifica
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-wide-bgp-communities/>
 
-[**https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-model/**](https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-model/)
+[**https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-model/**](https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-model/)  (*)
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-legacy-rtc/>
 
