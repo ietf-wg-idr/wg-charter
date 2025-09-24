@@ -1,8 +1,8 @@
 **Proposed IDR WG Re-Charter**
 
-The Border Gateway Protocol (BGP) \[RFC4271\] was originally developed for inter-domain IP routing over the Internet and other IP-based networks.
+The Border Gateway Protocol (BGP) (version 4) \[RFC4271\] was originally developed for inter-domain IP routing over the Internet and other IP-based networks.
 
-The goal of the Inter-Domain Routing (IDR) Working Group (WG) is to develop and maintain BGP and to support its deployment as the standard inter-domain routing protocol deployed for IPv4 and IPv6 routing over the Internet.
+The primary goal of the Inter-Domain Routing (IDR) Working Group (WG) is to develop and maintain BGP and to support its deployment as the standard inter-domain routing protocol deployed for IPv4 and IPv6 routing over the Internet.
 
 The WG will also work on the development and support of the routing of infrastructure prefixes (commonly referred to as underlay routing) using BGP in deployments within operator networks (including but not limited to service provider, enterprise, and data center environments). Besides the IPv4 and IPv6 unicast address families, this also includes labeled unicast address families and intent-aware underlay routing (as defined in \[draft-ietf-idr-bgp-car\] and \[RFC9832\]).
 
@@ -17,22 +17,22 @@ The IDR WG will develop and maintain BGP features, extensions, and mechanisms th
 - Outbound Route Filtering (ORF) mechanisms \[RFC5291\] \[RFC5292\] for policy-based control of route advertisement.
 - Graceful Restart procedures \[RFC4724\] \[RFC9494\] for improving BGP session resiliency and convergence during restarts or failures.
 
-The IDR WG charter lists work areas as opposed to work items, reflecting the ongoing work, the extensible nature of BGP, and the WG’s operational model. Specific work items and associated documents will be captured in the WG milestones, which highlight the most significant and time-sensitive deliverables. Milestones will track progress through WGLC, in line with the WG’s policy that any protocol specification (excluding YANG modules) should have at least two independent, interoperable implementations prior to advancing to publication.
+The IDR WG charter lists work areas as opposed to work items, reflecting the ongoing work, the extensible nature of BGP, and the WG’s operational model. Specific work items and associated documents are captured in the WG milestones, which highlight the most significant and time-sensitive deliverables. Milestones will track progress through WGLC, in line with the WG’s policy that any protocol specification (excluding YANG modules) should have at least two independent implementations prior to advancing to publication.
 
 The following work areas define the scope of activities for the WG, limited to the context of the BGP address families and core protocol extensions outlined above:
 
 - Advancement of BGP specifications, including but not limited to \[RFC4271\], toward Internet Standard status, where appropriate.
 - Resolution of protocol issues and incorporation of improvements based on operational experience and feedback from the operator community. This includes enhancements related to security, performance, scalability, protocol correctness, robustness, and operational simplicity.
 - Enhancements to BGP’s path selection and forwarding behavior to support advanced load-balancing capabilities beyond Equal-Cost Multi-Path (ECMP), including unequal and weighted load-balancing based on parameters such as bandwidth.
-- Development of YANG data models to support the management of BGP features standardized by the WG, with a focus on device models.
+- Development of YANG data models to support the management of BGP features standardized by the WG, with a focus on device models and capturing operational considerations, as appropriate.
 - Definition of BGP extensions to meet new requirements and use cases originating in other IETF working groups.
 - Protocol improvements and extensions to support BGP deployments in IPv6 networks, including IPv6-only environments and mechanisms that facilitate the transition from IPv4 to IPv6.
 
-The primary focus of the WG will remain on the development of Standards Track BGP protocol specifications. Adoption of specifications on experimental tracks may be done as an exception in consultation with the Responsible AD. The WG will not develop documents focused on use cases, frameworks, or architectural definitions. As an exception, the WG may produce Informational documents capturing deployment experience or best practices for BGP features developed within the WG.
+The primary focus of the WG will remain on the development of Standards Track BGP specifications. Adoption of experimental specifications may be done as an exception in consultation with the Responsible AD. The WG will not seek to publish documents focused on use cases, frameworks, or architectural definitions. As an exception, the WG may produce Informational documents capturing deployment experience or best practices for BGP features developed within the WG.
 
-As new features and functionalities are developed within the IETF, there may be requirements for BGP extensions to support them. The IDR WG may take on such work, following consultation with the relevant WG Chairs and Responsible ADs, provided the work is limited to BGP mechanisms. The WG will coordinate closely with the originating WG(s) responsible for the overall framework, architecture, and requirements. Progression of such work in IDR will be aligned with the maturity of the corresponding work in those WGs.
+As listed in the work areas, the WG may take up work on BGP extensions to support the work happening in other WGs following consultation with the relevant WG Chairs and Responsible ADs. The WG shall coordinate closely with the originating WG(s) responsible for the overall framework, architecture, and requirements. Progression of such work in IDR WG shall follow the maturity (specifically the adoption and WGLC milestones) of the corresponding base work in those WGs.
 
-Given the broad use of BGP across various WGs in the IETF, the IDR WG will collaborate closely with other WGs developing or relying on BGP extensions. This includes BESS (VPN service-related BGP features), BID (use of BGP for information distribution), LSVR (BGP-SPF extensions), GROW (operational practices and monitoring via BMP), and SIDROPS (routing security and RPKI integration). The IDR WG will seek input from GROW and SIDROPS as appropriate, particularly with respect to operational and security considerations during the development of new BGP specifications. Likewise, the WG will seek review from V6OPS for IPv6-related extensions.
+Given the broad use of BGP across various WGs in the IETF, the IDR WG will collaborate closely with other WGs developing or relying on BGP extensions. This includes BESS (VPN service-related BGP features), GRAB (use of BGP for dissemination of routing-adjacent information), LSVR (BGP-SPF extensions), GROW (operational practices and monitoring via BMP), and SIDROPS (routing security and RPKI integration). The IDR WG will seek input from GROW and SIDROPS as appropriate, particularly with respect to operational and security considerations during the development of new BGP specifications. Likewise, the WG will seek review from V6OPS for IPv6-related extensions.
 
 The IDR WG is expected to review BGP-related work in other WGs that is specifically impacting core BGP protocol aspects and provide timely feedback during (but not limited to) WG adoption and last calls in those respective WGs.
 
