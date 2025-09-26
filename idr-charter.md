@@ -16,6 +16,7 @@ The IDR WG will develop and maintain BGP features, extensions, and mechanisms th
 - Operation and optimization of Route Reflectors \[RFC4456\] and Confederations \[RFC5065\] for scalable iBGP deployments.
 - Outbound Route Filtering (ORF) mechanisms \[RFC5291\] \[RFC5292\] for policy-based control of route advertisement.
 - Graceful Restart procedures \[RFC4724\] \[RFC9494\] for improving BGP session resiliency and convergence during restarts or failures.
+- Maintenance and extensions for BGPSec \[RFC8205]\
 
 The IDR WG charter lists work areas as opposed to work items, reflecting the ongoing work, the extensible nature of BGP, and the WG’s operational model. Specific work items and associated documents are captured in the WG milestones, which highlight the most significant and time-sensitive deliverables. Milestones will track progress through WGLC, in line with the WG’s policy that any protocol specification (excluding YANG modules) should have at least two independent implementations prior to advancing to publication.
 
@@ -32,7 +33,7 @@ The primary focus of the WG will remain on the development of Standards Track BG
 
 As listed in the work areas, the WG may take up work on BGP extensions to support the work happening in other WGs following consultation with the relevant WG Chairs and Responsible ADs. The WG shall coordinate closely with the originating WG(s) responsible for the overall framework, architecture, and requirements. Progression of such work in IDR WG shall follow the maturity (specifically the adoption and WGLC milestones) of the corresponding base work in those WGs.
 
-Given the broad use of BGP across various WGs in the IETF, the IDR WG will collaborate closely with other WGs developing or relying on BGP extensions. This includes BESS (VPN service-related BGP features), GRAB (use of BGP for dissemination of routing-adjacent information), LSVR (BGP-SPF extensions), GROW (operational practices and monitoring via BMP), and SIDROPS (routing security and RPKI integration). The IDR WG will seek input from GROW and SIDROPS as appropriate, particularly with respect to operational and security considerations during the development of new BGP specifications. Likewise, the WG will seek review from V6OPS for IPv6-related extensions.
+Given the broad use of BGP across various WGs in the IETF, the IDR WG will collaborate closely with other WGs developing or relying on BGP extensions. This includes BESS (VPN service-related BGP features), GRAB (use of BGP for dissemination of routing-adjacent information), LSVR (BGP-SPF extensions), GROW (operational practices and monitoring via BMP), and SIDROPS (routing security operations and RPKI). The IDR WG will seek input from GROW and SIDROPS as appropriate, particularly with respect to operational and security considerations during the development of new BGP specifications. Likewise, the WG will seek review from V6OPS for IPv6-related extensions.
 
 The IDR WG is expected to review BGP-related work in other WGs that is specifically impacting core BGP protocol aspects and provide timely feedback during (but not limited to) WG adoption and last calls in those respective WGs.
 
