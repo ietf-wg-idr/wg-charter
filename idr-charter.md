@@ -16,7 +16,7 @@ The IDR WG will develop and maintain BGP features, extensions, and mechanisms th
 - Operation and optimization of Route Reflectors \[RFC4456\] and Confederations \[RFC5065\] for scalable iBGP deployments.
 - Outbound Route Filtering (ORF) mechanisms \[RFC5291\] \[RFC5292\] for policy-based control of route advertisement.
 - Graceful Restart procedures \[RFC4724\] \[RFC9494\] for improving BGP session resiliency and convergence during restarts or failures.
-- Maintenance and extensions for BGPSec \[RFC8205]\
+- BGPSec \[RFC8205]\ and BGP security related extensions other than the Resource Public Key Infrastructure (RPKI) related work undertaken in SIDROPS WG.
 
 The IDR WG charter lists work areas as opposed to work items, reflecting the ongoing work, the extensible nature of BGP, and the WG’s operational model. Specific work items and associated documents are captured in the WG milestones, which highlight the most significant and time-sensitive deliverables. Milestones will track progress through WGLC, in line with the WG’s policy that any protocol specification (excluding YANG modules) should have at least two independent implementations prior to advancing to publication.
 
