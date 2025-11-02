@@ -5,7 +5,7 @@ The Border Gateway Protocol (BGP) (version 4) \[RFC4271\] was originally develop
 The %new-bgp% Working Group (WG) is focused on the development and maintenance of BGP address families that extend BGP to carry information related to, or adjacent to, routing functionality within operator networks (including but not limited to service provider, enterprise, and data center environments). These address families are:
 
 - Advertisement of link-state and other topology information using BGP-LS \[RFC9552\].
-- Advertisement of Segment Routing (SR) Policies \[draft-ietf-idr-sr-policy-safi\].
+- Advertisement of Segment Routing (SR) Policies \[RFC9830\].
 - Dissemination of Flow Specification rules \[RFC8955\] and its enhanced version.
 - Distribution of routing policies \[draft-ietf-idr-rpd\].
 - Distribution of IPSec tunnel information for SD-WAN \[draft-ietf-idr-sdwan-edge-discovery\].
@@ -109,6 +109,7 @@ The WG is expected to coordinate closely with the IDR WG. Any extensions that im
 <https://datatracker.ietf.org/doc/draft-ietf-idr-ls-trill/>
 
 <https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-node-admin-tag-extension/>
+
 
 
 
