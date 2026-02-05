@@ -4,13 +4,13 @@ The Border Gateway Protocol (BGP) (version 4) \[RFC4271\] was originally develop
 
 The primary objective (and priority) of the Inter-Domain Routing (IDR) Working Group (WG) is to develop and maintain BGP as the standard inter-domain routing protocol deployed for IPv4 and IPv6 routing over the Internet. 
 
-In addition, the WG will work on the development and support of the following BGP address families for their respective deployments within operator networks (including but not limited to service provider, enterprise, and data center environments):
+In addition, the WG will work on the development and support of the following BGP address families for their respective deployments within operator networks (including but not limited to service provider, enterprise, and data center environments) as the two tracks within the WG:
 
 **Infrastructure (Underlay) Routing:** These address families support the routing of infrastructure prefixes, commonly referred to as underlay routing:
 
 * IPv4 and IPv6 unicast address families for networks outside the public Internet.  
 * Labeled Unicast address family \[RFC8277\].  
-* Intent-aware underlay routing, as defined in \[draft-ietf-idr-bgp-car\] and \[RFC9832\].
+* Intent-aware underlay routing, as defined in \[RFC9871\] and \[RFC9832\].
 
 **Routing-Adjacent Information Dissemination:** These address families enable BGP to carry information related to, or adjacent to, routing functionality:
 
