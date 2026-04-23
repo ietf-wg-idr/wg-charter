@@ -23,7 +23,7 @@ In addition, the WG will work on the development and support of the following BG
 
 Also, the IDR WG will develop and maintain BGP features, extensions, and mechanisms that are largely address-family independent and may be considered core to the protocol’s operation. These are:
 
-* Protocol-level aspects such as message encoding and processing (PDUs), session management, neighbor finite state machine (FSM), path selection, and associated procedures.  
+* Protocol-level aspects such as message encoding and processing (PDUs), support for different transports specific to BGP, session management, neighbor finite state machine (FSM), path selection, and associated procedures.  
 * BGP attributes used to convey information relevant to Network Layer Reachability Information (NLRIs), next-hop resolution, metrics, and other data integral to BGP operation.  
 * Capability advertisement mechanisms \[RFC5492\] used during session establishment to signal support for optional protocol features.  
 * Extended Communities \[RFC4360\], including support for Large and Wide Communities, for carrying metadata and policy-related information.
