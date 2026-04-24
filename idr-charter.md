@@ -30,7 +30,7 @@ Also, the IDR WG will develop and maintain BGP features, extensions, and mechani
 * Outbound Route Filtering (ORF) mechanisms \[RFC5291\]\[RFC5292\] for policy-based control of route advertisement.
 * Route constraint mechanisms such as Route Target Constraints \[RFC4684\] for limiting route propagation.  
 * Advertisement of tunnel encapsulation information \[RFC9012\] to support data plane flexibility.
-* Advertisement of Segment Routing information via Pefix SID Attribute \[RFC8669\].
+* Advertisement of Segment Routing information via Prefix SID Attribute \[RFC8669\].
 * Operation and optimization of Route Reflectors \[RFC4456\] and Confederations \[RFC5065\] for scalable iBGP deployments.  
 * Graceful Restart procedures \[RFC4724\] \[RFC9494\] for improving BGP session resiliency and convergence during restarts or failures.
 * BGPSec \[RFC8205\] and BGP security related extensions other than the Resource Public Key Infrastructure (RPKI) related work undertaken in SIDROPS WG.
